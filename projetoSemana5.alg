@@ -62,15 +62,39 @@ fimpara
 
 caso "2"
 para i de 1 ate 4 faca
-escreval ("Você escolheu converter graus Fahrenheit para graus Celsius")
 escreval ("Diga a temperatura em graus Fahrenheit, por favor")
 leia (tempF[i])
 escreval ("Diga que horas a temperatura foi registrada")
 leia (hora[i])
 tempC[i] <- ((tempF[i] - 32) / 1.8)
-escreval ("A temperatura convertida é igual a", tempC[i], "graus Celsius")
 escreval ("")
 fimpara
+
+
+para i de 1 ate 4 faca
+   para j de 1 ate 4 faca
+      se tempC[j] > tempC[i] entao
+         aux <- tempC[i]
+         tempC[i] <- tempC[j]
+         tempC[j] <- aux
+      fimse
+   fimpara
+fimpara
+
+para i de 1 ate 4 faca
+   para j de 1 ate 4 faca
+      se tempF[j] > tempF[i] entao
+         aux <- tempF[i]
+         tempF[i] <- tempF[j]
+         tempF[j] <- aux
+      fimse
+   fimpara
+fimpara
+
+para i de 1 ate 4 faca
+escreval ("A temperatura ",tempF[i], " graus F "," Registrado as ",hora[i]," horas ", " convertita fica ", tempC[i], " graus C ")
+fimpara
+
 
 
 caso "3"
