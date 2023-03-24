@@ -8,6 +8,7 @@ cotacaoDolar, reais, dolares : real
 hora : vetor[1..4] de inteiro
 tempC : vetor[1..4] de real
 tempF : vetor[1..4] de real
+numeros : vetor[1..4] de real
 inicio
 
 enquanto opcaomenu <> "5" faca
@@ -34,12 +35,23 @@ leia (hora[i])
 tempF[i] <- ((tempC[i] * 1.8) + 32)
 fimpara
 
+
 para i de 1 ate 4 faca
    para j de 1 ate 4 faca
-      se tempF[i] > tempC[i] entao
+      se tempC[j] > tempC[i] entao
          aux <- tempC[i]
-         tempC[i] <- tempF[i]
-         tempF[i] <- aux
+         tempC[i] <- tempC[j]
+         tempC[j] <- aux
+      fimse
+   fimpara
+fimpara
+
+para i de 1 ate 4 faca
+   para j de 1 ate 4 faca
+      se tempF[j] > tempF[i] entao
+         aux <- tempF[i]
+         tempF[i] <- tempF[j]
+         tempF[j] <- aux
       fimse
    fimpara
 fimpara
