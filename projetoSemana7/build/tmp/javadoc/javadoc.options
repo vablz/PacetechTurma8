@@ -1,0 +1,8 @@
+-classpath 'C:\\Users\\Usuario\\Documents\\NetBeansProjects\\projetoSemana7\\build\\classes\\java\\main;C:\\Users\\Usuario\\Documents\\NetBeansProjects\\projetoSemana7\\build\\resources\\main'
+-d 'C:\\Users\\Usuario\\Documents\\NetBeansProjects\\projetoSemana7\\build\\docs\\javadoc'
+-doctitle 'projetoSemana7 API'
+-notimestamp 
+-quiet 
+-windowtitle 'projetoSemana7 API'
+'C:\\Users\\Usuario\\Documents\\NetBeansProjects\\projetoSemana7\\src\\main\\java\\projetoSemana7\\Empregado.java'
+'C:\\Users\\Usuario\\Documents\\NetBeansProjects\\projetoSemana7\\src\\main\\java\\projetoSemana7\\Main.java'
