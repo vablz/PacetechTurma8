@@ -1,0 +1,27 @@
+projetoSemana8/Main.java
+ projetoSemana8.Main
+projetoSemana8/Calculadora.java
+ projetoSemana8.Calculadora
+ projetoSemana8.Calculadora$1
+ projetoSemana8.Calculadora$10
+ projetoSemana8.Calculadora$11
+ projetoSemana8.Calculadora$12
+ projetoSemana8.Calculadora$13
+ projetoSemana8.Calculadora$14
+ projetoSemana8.Calculadora$15
+ projetoSemana8.Calculadora$16
+ projetoSemana8.Calculadora$17
+ projetoSemana8.Calculadora$18
+ projetoSemana8.Calculadora$19
+ projetoSemana8.Calculadora$2
+ projetoSemana8.Calculadora$20
+ projetoSemana8.Calculadora$21
+ projetoSemana8.Calculadora$22
+ projetoSemana8.Calculadora$23
+ projetoSemana8.Calculadora$3
+ projetoSemana8.Calculadora$4
+ projetoSemana8.Calculadora$5
+ projetoSemana8.Calculadora$6
+ projetoSemana8.Calculadora$7
+ projetoSemana8.Calculadora$8
+ projetoSemana8.Calculadora$9
